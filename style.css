@@ -1,0 +1,41 @@
+body {
+    background-color: #1f2937;
+}
+.header {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    color: #f9faf8;
+}
+
+.headertext {
+    align-self: center;
+}
+
+.leftheader img {
+    max-width: 50px;
+    max-height: 50px;
+    align-self: center;
+}
+
+.leftheader, .rightheader {
+    display: flex;
+    gap: 25px;
+}
+
+.rightheader ul {
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+a:hover {
+    color: #E5E7EB;
+}
