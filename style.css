@@ -85,3 +85,29 @@ button {
     border-radius: 50%;
     width: 50px;
 }
+
+.maincontainer {
+    background-color: #f9faf8;
+    height: 500px;
+    width: auto;
+}
+
+.bodytwocontainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.bodytwocontainer img {
+    max-width: 300px;
+    max-height: 300px;
+    margin: 25px;
+    border-radius: 5%;
+}
+
+.bodyheadertwo {
+    text-align: center;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 800;
+}
