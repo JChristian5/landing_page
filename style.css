@@ -83,9 +83,10 @@ button {
     align-self: center;
     background-color: blue;
     color: #f9faf8;
-    border-radius: 50%;
+    border-radius: 8px;
     width: 50px;
     margin: 10px;
+    font-family: sans-serif;
 }
 
 .maincontainer {
@@ -167,4 +168,13 @@ button {
 .bluecontheader {
     font-size: 24px;
     font-weight: 700;
+}
+
+.footer {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f9faf8;
+    font-size: 18px;
 }
